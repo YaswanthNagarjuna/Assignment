@@ -155,7 +155,7 @@ const Dashboard = () => {
     <div className="p-8">
       <div className="flex justify-between items-center mb-4">
         <div className="text-2xl font-bold">Hello Sharukh</div>
-        <div className="relative">
+        <div className="relative overflow-auto">
           <input
             type="text"
             placeholder="Search"
@@ -226,7 +226,7 @@ const Dashboard = () => {
         <div className="flex justify-between items-center font-bold p-2">
           <div>Product Sell</div>
           <div className="flex flex-wrap items-center space-x-2">
-            <div className="relative">
+            <div className="relative overflow-auto">
               <input
                 type="text"
                 placeholder="Search"
